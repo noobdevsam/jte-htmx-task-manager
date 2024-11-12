@@ -1,4 +1,4 @@
-@import dev.danvega.tasks.Task
+@import com.example.jte_htmx_task_manager.Task;
 @param java.util.List<Task> tasks
 
 <!DOCTYPE html>
