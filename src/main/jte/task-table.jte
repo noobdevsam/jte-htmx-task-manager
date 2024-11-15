@@ -18,7 +18,7 @@
 						hx-target="#taskTable"
 						hx-swap="innerHTML"
 					>
-						Delete, <span>Task ${id}</span> 
+						Delete, <span>Task ${i + 1}</span>
 					</button>
 				</td>
 			</tr>

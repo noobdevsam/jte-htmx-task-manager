@@ -2,12 +2,14 @@
 @param java.util.List<Task> tasks
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task Manager</title>
-    <script src="https://unpkg.com/htmx.org@1.9.10"></script>
+    <script src="https://unpkg.com/htmx.org@2.0.3/dist/htmx.js"
+            integrity="sha384-BBDmZzVt6vjz5YbQqZPtFZW82o8QotoM7RUp5xOxV3nSJ8u2pSdtzFAbGKzTlKtg"
+            crossorigin="anonymous"></script>
 </head>
 <body>
 <div>
@@ -61,5 +63,6 @@
         </div>
     </div>
 </div>
+
 </body>
 </html>
